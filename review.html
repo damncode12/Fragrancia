@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fragrancia - Customer Reviews</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <!-- Navigation content here -->
+        <div class="container">
+            <a href="#" class="logo ">Fragrancia.</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="#review">Review</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Review Section -->
+    <div id="review">
+        <!-- Review content here -->
+        <div class="container">
+            <h1 class="sub-title">Customer Reviews</h1>
+            <!-- First Review -->
+            <div class="review">
+                <img src="user1.jpeg" alt="User 1">
+                <p class="review-text">
+                    "Fragrancia has the most beautiful flowers I've ever seen. Their fragrance is heavenly!"
+                </p>
+                <div class="rating">
+                    ★★★★★
+                </div>
+            </div>
+            <!-- Second Review -->
+            <div class="review">
+                <img src="user2.jpeg" alt="User 2">
+                <p class="review-text">
+                    "I'm a regular customer of Fragrancia, and I've never been disappointed. Their service is exceptional."
+                </p>
+                <div class="rating">
+                    ★★★★☆
+                </div>
+            </div>
+            <!-- Add more reviews as needed -->
+        </div>
+    </div>
+    <div id="review-form-section">
+        <div class="container">
+    <h2 class="sub-title">Submit Your Review</h2>
+    <form id="review-form">
+        <div class="form-group">
+            <label for="user-image">Your Image (URL):</label>
+            <input type="text" id="user-image" name="user-image" required>
+        </div>
+        <div class="form-group">
+            <label for="user-rating">Rating:</label>
+            <select id="user-rating" name="user-rating" required>
+                <option value="5">5 Stars</option>
+                <option value="4">4 Stars</option>
+                <option value="3">3 Stars</option>
+                <option value="2">2 Stars</option>
+                <option value="1">1 Star</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="user-review">Your Review:</label>
+            <textarea id="user-review" name="user-review" rows="4" required></textarea>
+        </div>
+        <button type="submit">Submit Review</button>
+    </form>
+    </div>
+    </div> 
+    <!-- Other sections as needed -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="contact-details">
+                    <h3>Contact Us</h3>
+                    <p>Email: ayushiom1203@gmail.com.com</p>
+                    <p>Phone: 6267249080</p>
+                    <p>Address: 123 Flower Street, City</p>
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2023 Fragrancia. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
