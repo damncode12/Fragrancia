@@ -14,7 +14,7 @@ html {
 body {
     background: #080808;
     color: white;
-    background-image: url('Influenza.jpg');
+    background-image: url('./assets/Influenza.jpg');
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px; /* Increase text size */
 }
@@ -89,7 +89,7 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    background: url('back.jpg') no-repeat center center fixed;
+    background: url('./assets/back.jpg') no-repeat center center fixed;
     background-size: cover;
     position: relative;
     animation: fadeIn 1s ease-in; /* Fade in animation */
